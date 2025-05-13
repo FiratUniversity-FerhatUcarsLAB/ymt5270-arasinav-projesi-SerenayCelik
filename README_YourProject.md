@@ -1,12 +1,12 @@
 # YMT5270 Ara Sınav Projesi: Orange ile Veri Analizi ve Makine Öğrenmesi
 
 ## Öğrenci Bilgileri
-- **Ad Soyad**: 
-- **Öğrenci Numarası**: 
-- **E-posta**: 
+- **Serenay Çelik**: 
+- **242138201**: 
+- **serenaycelik23@gmail.com**: 
 
 ## Proje Özeti
-> *Bu bölümde projenizin genel bir özetini yazınız. Hangi veri setini neden seçtiğinizi, hangi analiz yöntemlerini uyguladığınızı ve genel sonuçlarınızı kısaca açıklayınız (150-250 kelime).*
+> *Bu projede, buğday tohumlarının türünü tahmin etmeye yönelik bir makine öğrenmesi sınıflandırma uygulaması gerçekleştirilmiştir. Kullanılan veri seti, UCI Machine Learning Repository'den alınan ve farklı buğday türlerine ait morfolojik özellikleri içeren Seeds veri setidir. Veri seti; alan (area), çevre (perimeter), kompaktlık (compactness), çekirdek uzunluğu ve genişliği gibi 7 adet öznitelik ile buğday türünü (1:Kama, 2:Rosa, 3:Canadian) temsil eden 1 adet hedef değişkene sahip 210 örnekten oluşturulmuştur. Veri setinin uyguluğundan analiz yöntemi olarak sınıflandırma tercih edilmiştir. Bu çalışmada, K-En Yakın Komşu (KNN), Random Forest ve Destek Vektör Makineleri (SVM) algoritmaları kullanılmış ve tüm modelleme süreci Orange Data Mining aracı aracılığıyla gerçekleştirilmiştir. Elde edilen sonuçlar, KNN ve Random Forest algoritmalarının oldukça başarılı performans sergilediğini, SVM modelinin genel sınıflandırma performansı açısından en yüksek başarıyı gösterdiğini ortaya koymuştur.Değerlendirme metrikleri olarak AUC (Area Under the Curve), F1 Score, Doğruluk (Accuracy), Precision ve Recall kullanılmıştır. Sonuçlar, SVM algoritmasının, KNN ve Random Forest algoritmalarına göre daha yüksek AUC ve F1 Score değerleri ile en iyi performansı sergilediğini göstermektedir. Özellikle F1 Score, modelin hem doğruluğunu hem de sınıfların dengesiz dağılımını dikkate alarak daha anlamlı sonuçlar vermiştir. Ayrıca, AUC değeri, modelin genel sınıflandırma performansını göstererek SVM'in daha iyi genel sınıflandırıcı olduğunu doğrulamaktadır. Sonuçlar, buğday tohumlarının fiziksel-morfolojik özelliklerinin doğru sınıflandırma için yeterli bilgi sağladığını ve uygun algoritmalarla yüksek doğruluk oranlarına ulaşılabileceğini göstermektedir.*
 
 ## Veri Seti
 ### Veri Seti Bilgileri
