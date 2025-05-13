@@ -44,6 +44,7 @@
 > - *Eksik verilerin tespiti*
 ![1](https://github.com/user-attachments/assets/eeff511f-2b1c-4463-aecd-c6505e21786f)
 ![2](https://github.com/user-attachments/assets/5b094da9-95e6-4dba-b2dd-f38849f40cd2)
+
 > Feature Statistics'te missing değerlerin 0 olması ve Data Table'de tüm değerlerin dolu olması eksik değerlerin olmadığını göstermektedir.
 
 
