@@ -10,16 +10,16 @@
 
 ## Veri Seti
 ### Veri Seti Bilgileri
-- **Veri Seti Adı:**: *Seeds*
+- **Veri Seti Adı**: *Seeds*
 - **Kaynak**: *https://archive.ics.uci.edu/dataset/236/seeds*
 - **Lisans**: *M. Charytanowicz, J. Niewczas, P. Kulczycki, P. Kowalski, and S. Lukasik. "Seeds," UCI Machine Learning Repository, 2010. [Online]. Available: https://doi.org/10.24432/C5H30K.*
 - **Veri Seti Boyutu**: *210 satır, 8 sütun*
 
 ### Veri Seti Tanımı
-> *Buğday çeşitlerini tanımak için kullanılan Seeds veri seti, her türün çeşitli özelliklerine dayalı sınıflandırma yapmaya olanak tanır. Veri setinde, farklı buğday türlerinin fiziksel özellikleri hakkında bilgi bulunur. Araştırmalar, Polonya’nın Lublin şehrinde bulunan Bilimler Akademisi Tarım Fiziği Enstitüsü’ndeki deney alanlarından toplanan, kombine hasat edilmiş buğday taneleriyle gerçekleştirilmiştir. İncelenen grup, her biri 70 örnekten oluşan üç farklı buğday çeşidini içermektedir: Kama, Rosa ve Canadian. Buğday tanelerinin iç çekirdek yapıları, yumuşak bir X-ışını tekniği kullanılarak yüksek kalitede görüntülenmiş ve elde edilen görüntüler 13x18 cm boyutlarında X-ışını KODAK plakalarına kaydedilmiştir.
-> Olası Sınırlılıklar
+> Buğday çeşitlerini tanımak için kullanılan Seeds veri seti, her türün çeşitli özelliklerine dayalı sınıflandırma yapmaya olanak tanır. Veri setinde, farklı buğday türlerinin fiziksel özellikleri hakkında bilgi bulunur. Araştırmalar, Polonya’nın Lublin şehrinde bulunan Bilimler Akademisi Tarım Fiziği Enstitüsü’ndeki deney alanlarından toplanan, kombine hasat edilmiş buğday taneleriyle gerçekleştirilmiştir. İncelenen grup, her biri 70 örnekten oluşan üç farklı buğday çeşidini içermektedir: Kama, Rosa ve Canadian. Buğday tanelerinin iç çekirdek yapıları, yumuşak bir X-ışını tekniği kullanılarak yüksek kalitede görüntülenmiş ve elde edilen görüntüler 13x18 cm boyutlarında X-ışını KODAK plakalarına kaydedilmiştir.
+> **Olası Sınırlılıklar**
 > 1. Küçük Veri Seti: Seeds veri seti, sadece 210 örnek içeriyor, bu da sınıflandırma modellerinin genellenebilirliğini sınırlayabilir.
-> 2. Fiziksel Özelliklere Dayanma: Veri seti, sadece buğday tanelerinin fiziksel özelliklerine odaklanmaktadır. Ancak bazı durumlarda, buğdayın kalite ve verimliliğini etkileyen diğer faktörler, örneğin genetik faktörler, çevre koşulları, toprak türü ve ekim stratejileri gibi faktörler de sınıflandırmada önemli rol oynayabilir.*
+> 2. Fiziksel Özelliklere Dayanma: Veri seti, sadece buğday tanelerinin fiziksel özelliklerine odaklanmaktadır. Ancak bazı durumlarda, buğdayın kalite ve verimliliğini etkileyen diğer faktörler, örneğin genetik faktörler, çevre koşulları, toprak türü ve ekim stratejileri gibi faktörler de sınıflandırmada önemli rol oynayabilir.
 
 ### Öznitelik Açıklamaları
 | Öznitelik Adı | Veri Tipi | Açıklama | Örnek Değer |
@@ -41,8 +41,8 @@
 
 ### Veri Ön İşleme
 > - Eksik verilerin tespiti
-> - ![1](https://github.com/user-attachments/assets/d6d4c4b7-ba24-4153-adb1-854b4547f8ea)
-> - ![2](https://github.com/user-attachments/assets/19ec941c-298a-4c0d-b72a-922f529bd79e)
+> ![1](https://github.com/user-attachments/assets/d6d4c4b7-ba24-4153-adb1-854b4547f8ea)
+> ![2](https://github.com/user-attachments/assets/19ec941c-298a-4c0d-b72a-922f529bd79e)
 > - Feature Statistics'te gösterilen missing value değerlerin %0 olması ve Data Table'deki tüm değerlerin doluluğundan eksik değerlerin olmadığı tspit edilmiştir.*
 > - *Aykırı değerlerin tespiti ve işlenmesi*
 > - *Veri normalizasyonu/standardizasyonu*
