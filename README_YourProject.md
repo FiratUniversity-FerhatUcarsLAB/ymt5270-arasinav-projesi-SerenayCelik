@@ -16,7 +16,10 @@
 - **Veri Seti Boyutu**: *210 satır, 8 sütun*
 
 ### Veri Seti Tanımı
-> *Buğday çeşitlerini tanımak için kullanılan Seeds veri seti, her türün çeşitli özelliklerine dayalı sınıflandırma yapmaya olanak tanır. Veri setinde, farklı buğday türlerinin fiziksel özellikleri hakkında bilgi bulunur. Araştırmalar, Polonya’nın Lublin şehrinde bulunan Bilimler Akademisi Tarım Fiziği Enstitüsü’ndeki deney alanlarından toplanan, kombine hasat edilmiş buğday taneleriyle gerçekleştirilmiştir. İncelenen grup, her biri 70 örnekten oluşan üç farklı buğday çeşidini içermektedir: Kama, Rosa ve Canadian. Buğday tanelerinin iç çekirdek yapıları, yumuşak bir X-ışını tekniği kullanılarak yüksek kalitede görüntülenmiş ve elde edilen görüntüler 13x18 cm boyutlarında X-ışını KODAK plakalarına kaydedilmiştir.*
+> *Buğday çeşitlerini tanımak için kullanılan Seeds veri seti, her türün çeşitli özelliklerine dayalı sınıflandırma yapmaya olanak tanır. Veri setinde, farklı buğday türlerinin fiziksel özellikleri hakkında bilgi bulunur. Araştırmalar, Polonya’nın Lublin şehrinde bulunan Bilimler Akademisi Tarım Fiziği Enstitüsü’ndeki deney alanlarından toplanan, kombine hasat edilmiş buğday taneleriyle gerçekleştirilmiştir. İncelenen grup, her biri 70 örnekten oluşan üç farklı buğday çeşidini içermektedir: Kama, Rosa ve Canadian. Buğday tanelerinin iç çekirdek yapıları, yumuşak bir X-ışını tekniği kullanılarak yüksek kalitede görüntülenmiş ve elde edilen görüntüler 13x18 cm boyutlarında X-ışını KODAK plakalarına kaydedilmiştir.
+> Olası Sınırlılıklar
+> 1. Küçük Veri Seti: Seeds veri seti, sadece 210 örnek içeriyor, bu da sınıflandırma modellerinin genellenebilirliğini sınırlayabilir.
+> 2. Fiziksel Özelliklere Dayanma: Veri seti, sadece buğday tanelerinin fiziksel özelliklerine odaklanmaktadır. Ancak bazı durumlarda, buğdayın kalite ve verimliliğini etkileyen diğer faktörler, örneğin genetik faktörler, çevre koşulları, toprak türü ve ekim stratejileri gibi faktörler de sınıflandırmada önemli rol oynayabilir.*
 
 ### Öznitelik Açıklamaları
 | Öznitelik Adı | Veri Tipi | Açıklama | Örnek Değer |
@@ -32,7 +35,9 @@
 
 ## Keşifsel Veri Analizi (Explanatory Data Analysis - EDA)
 ### Temel İstatistikler
-> *Veri setine ait temel istatistikleri (ortalama, medyan, standart sapma, vb.) buraya ekleyiniz. Orange'dan alınan ekran görüntüleri ile destekleyebilirsiniz.*
+> *Veri setine ait temel istatistikleri (ortalama, medyan, standart sapma, vb.) buraya ekleyiniz. Orange'dan alınan ekran görüntüleri ile destekleyebilirsiniz.
+> ![image](https://github.com/user-attachments/assets/63f2ebda-5bf5-4215-87e3-9798ed682a78)
+*
 
 ### Veri Ön İşleme
 > *Veri setinize uyguladığınız ön işleme adımlarını detaylandırınız:*
