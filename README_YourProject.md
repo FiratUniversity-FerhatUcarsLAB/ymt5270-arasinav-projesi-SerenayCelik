@@ -47,18 +47,18 @@
 
 > Feature Statistics'te missing değerlerin 0 olması ve Data Table'de tüm değerlerin dolu olması eksik değerlerin olmadığını göstermektedir.
 
+> - *Aykırı değerlerin tespiti*
+![3](https://github.com/user-attachments/assets/fc4675f6-e732-4a9c-bf93-efc150335158)
+![4](https://github.com/user-attachments/assets/3ce9827d-038a-4ad3-b56d-c5e6ca77f57b)
 
-> - *Veri normalizasyonu/standardizasyonu
-> - ![1](https://github.com/user-attachments/assets/2690cee2-a0a0-46f0-996c-bc027a013896)
-*
-> - *Kategorik verilerin kodlanması*
-> - *Diğer ön işleme adımları*
+> Box Plot kullanılarak yapılan analizde özniteliklerde aykırı değerler tespiti yapılmıştır. Ortalama değerler göz önünde bulundurulduğunda ve özniteliklere ait Box Plot, Distributions widgetleri görselleştirildiğinde modellerin performanslarını etkilecek aykırı değerler gözlemlenmemiştir.
+
 
 ### Görselleştirmeler
 > *Orange ile yaptığınız veri görselleştirmelerini buraya ekleyiniz. Her görselleştirme için kısa bir açıklama yazınız. Görselleri bu repoya yükleyip, markdown içinde referans verebilirsiniz.*
 
-#### Görselleştirme 1: [Görselleştirme Adı]
-![Görselleştirme 1 Açıklaması](goruntuler/gorselleştirme1.png)
+#### Görselleştirme 1: [Özniteliklerin sınıflandırmaya etkisi]
+![Tree Viewer](ymt5270/5.png)
 > *Bu görselleştirme ile ilgili yorumunuz ve çıkarımlarınız.*
 
 #### Görselleştirme 2: [Görselleştirme Adı]
