@@ -58,7 +58,8 @@
 > *Orange ile yaptığınız veri görselleştirmelerini buraya ekleyiniz. Her görselleştirme için kısa bir açıklama yazınız. Görselleri bu repoya yükleyip, markdown içinde referans verebilirsiniz.*
 
 #### Görselleştirme 1: [Özniteliklerin sınıflandırmaya etkisi]
-![Tree Viewer](ymt5270/5.png)
+![Tree Viewer]![5](https://github.com/user-attachments/assets/752f4067-1cc8-4c4e-a9be-6d3b60dd55af)
+
 > *Bu görselleştirme ile ilgili yorumunuz ve çıkarımlarınız.*
 
 #### Görselleştirme 2: [Görselleştirme Adı]
