@@ -60,7 +60,7 @@
 #### Görselleştirme 1: Özniteliklerin sınıflandırmaya etkisi (Tree Viewer)
 ![5](https://github.com/user-attachments/assets/752f4067-1cc8-4c4e-a9be-6d3b60dd55af)
 
-> *Bu görselleştirme ile ilgili yorumunuz ve çıkarımlarınız.*
+> *Sınıflandırma ve regresyon ağaçlarını 2D olarak görselleştirerek, modelin nasıl çalıştığını ve verilerin nasıl sınıflandırıldığını anlamayı kolaylaştırmaktadır. Böylece özniteliklerin sınıflandırmadaki etkisi gözlemlenmiştir.*
 
 #### Görselleştirme 2: [Görselleştirme Adı]
 ![Görselleştirme 2 Açıklaması](goruntuler/gorselleştirme2.png)
