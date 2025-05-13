@@ -10,20 +10,25 @@
 
 ## Veri Seti
 ### Veri Seti Bilgileri
-- **Veri Seti Adı:**: *Seeeds*
+- **Veri Seti Adı:**: *Seeds*
 - **Kaynak**: *https://archive.ics.uci.edu/dataset/236/seeds*
-- **Lisans**: *(Eğer belirtilmişse)*
-- **Veri Seti Boyutu**: *(örn. 500 satır, 10 sütun)*
+- **Lisans**: *M. Charytanowicz, J. Niewczas, P. Kulczycki, P. Kowalski, and S. Lukasik. "Seeds," UCI Machine Learning Repository, 2010. [Online]. Available: https://doi.org/10.24432/C5H30K.*
+- **Veri Seti Boyutu**: *210 satır, 8 sütun*
 
 ### Veri Seti Tanımı
-> *Veri setinin içeriğini detaylı olarak açıklayınız. Hangi öznitelikleri içerdiği, verilerin nasıl toplandığı, olası sınırlılıkları gibi bilgileri buraya yazınız.*
+> *Buğday çeşitlerini tanımak için kullanılan Seeds veri seti, her türün çeşitli özelliklerine dayalı sınıflandırma yapmaya olanak tanır. Veri setinde, farklı buğday türlerinin fiziksel özellikleri hakkında bilgi bulunur. Araştırmalar, Polonya’nın Lublin şehrinde bulunan Bilimler Akademisi Tarım Fiziği Enstitüsü’ndeki deney alanlarından toplanan, kombine hasat edilmiş buğday taneleriyle gerçekleştirilmiştir. İncelenen grup, her biri 70 örnekten oluşan üç farklı buğday çeşidini içermektedir: Kama, Rosa ve Canadian. Buğday tanelerinin iç çekirdek yapıları, yumuşak bir X-ışını tekniği kullanılarak yüksek kalitede görüntülenmiş ve elde edilen görüntüler 13x18 cm boyutlarında X-ışını KODAK plakalarına kaydedilmiştir.*
 
 ### Öznitelik Açıklamaları
 | Öznitelik Adı | Veri Tipi | Açıklama | Örnek Değer |
 |---------------|-----------|----------|-------------|
-| Örnek Öznitelik 1 | Sayısal | İlgili açıklama | 42.5 |
-| Örnek Öznitelik 2 | Kategorik | İlgili açıklama | "Evet" |
-| ... | ... | ... | ... |
+| Area | Sayısal | Buğday tanesinin alanı | 15.26 |
+| Perimeter | Sayısal | Buğday tanesinin çevresinin uzunluğu | 14.84 |
+| Compactness | Sayısal | Alanın çevre uzunluğuna oranı | 0.8710 |
+| Length of kernel | Sayısal | Buğday tanesinin uzunluğu | 5.763 |
+| Width of kernel | Sayısal | Buğday tanesinin genişliği | 3.312 |
+| Asymmetry coefficient | Sayısal | Tane şeklinin simetrik olup olmadığına dair bir ölçüt | 2.2210 |
+| Length of kernel groove | Sayısal | Tane üzerindeki oluk uzunluğu | 5.220 |
+| Class | Kategorik | Sınıf etiketi | "Kama" |
 
 ## Keşifsel Veri Analizi (Explanatory Data Analysis - EDA)
 ### Temel İstatistikler
