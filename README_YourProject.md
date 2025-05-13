@@ -37,16 +37,16 @@ Olası Sınırlılıklar
 ## Keşifsel Veri Analizi (Explanatory Data Analysis - EDA)
 ### Temel İstatistikler
 > Veri setine ait temel istatistikler (ortalama, medyan, standart sapma, vb.) Feature Statistics widgeti kullanılarak görselleştirilmiştir. Eksik veri kotrolü sağlanmıştır.
-> ![image](https://github.com/user-attachments/assets/72a1c3af-39cb-488f-b1d7-9fa5b5976372)
-*
+![image](https://github.com/user-attachments/assets/72a1c3af-39cb-488f-b1d7-9fa5b5976372)
+
 
 ### Veri Ön İşleme
 > - Eksik verilerin tespiti
 > ![1](https://github.com/user-attachments/assets/d6d4c4b7-ba24-4153-adb1-854b4547f8ea)
 > ![2](https://github.com/user-attachments/assets/19ec941c-298a-4c0d-b72a-922f529bd79e)
 
-Feature Statistics'te gösterilen missing value değerlerin %0 olması ve Data Table'deki tüm değerlerin doluluğundan eksik değerlerin olmadığı tspit edilmiştir.*
-> - *Aykırı değerlerin tespiti ve işlenmesi*
+Feature Statistics'te gösterilen missing değerlerin 0 ve Data Table'deki tüm değerlerin dolu olması eksik değerlerin olmadığını göstermektedir.
+> - *hdhdfh*
 > - *Veri normalizasyonu/standardizasyonu*
 > - *Kategorik verilerin kodlanması*
 > - *Diğer ön işleme adımları*
