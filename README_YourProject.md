@@ -10,8 +10,8 @@
 
 ## Veri Seti
 ### Veri Seti Bilgileri
-- **Veri Seti Adı**: 
-- **Kaynak**: *(URL veya referans)*
+- **Seeds**: 
+- **Kaynak**: *https://archive.ics.uci.edu/dataset/236/seeds*
 - **Lisans**: *(Eğer belirtilmişse)*
 - **Veri Seti Boyutu**: *(örn. 500 satır, 10 sütun)*
 
