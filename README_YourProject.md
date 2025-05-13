@@ -41,13 +41,11 @@
 
 
 ### Veri Ön İşleme
-> - Eksik verilerin tespiti
-> ![1](https://github.com/user-attachments/assets/d6d4c4b7-ba24-4153-adb1-854b4547f8ea)
-> ![2](https://github.com/user-attachments/assets/19ec941c-298a-4c0d-b72a-922f529bd79e)
-
-Feature Statistics'te gösterilen missing değerlerin 0 ve Data Table'deki tüm değerlerin dolu olması eksik değerlerin olmadığını göstermektedir.
 > - *Eksik verilerin tespiti*
 > - ![1](https://github.com/user-attachments/assets/eeff511f-2b1c-4463-aecd-c6505e21786f)
+> - ![2](https://github.com/user-attachments/assets/5b094da9-95e6-4dba-b2dd-f38849f40cd2)
+> - Feature Statistics'te missing değerlerin 0 olması ve Data Table'de tüm değerlerin dolu olması eksik değerlerin olmadığını göstermektedir.
+
 
 > - *Veri normalizasyonu/standardizasyonu
 > - ![1](https://github.com/user-attachments/assets/2690cee2-a0a0-46f0-996c-bc027a013896)
