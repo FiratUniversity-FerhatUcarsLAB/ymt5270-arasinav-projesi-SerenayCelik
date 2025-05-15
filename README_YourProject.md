@@ -6,7 +6,7 @@
 - **E-posta: serenaycelik23@gmail.com**
 
 ## Proje Özeti
-> *Bu projede, buğday tohumlarının türünü tahmin etmeye yönelik bir makine öğrenmesi sınıflandırma uygulaması gerçekleştirilmiştir. Kullanılan veri seti, UCI Machine Learning Repository'den alınan ve farklı buğday türlerine ait morfolojik özellikleri içeren Seeds veri setidir. Veri seti; alan (area), çevre (perimeter), kompaktlık (compactness), çekirdek uzunluğu ve genişliği gibi 7 adet öznitelik ile buğday türünü (1:Kama, 2:Rosa, 3:Canadian) temsil eden 1 adet hedef değişkene sahip 210 örnekten oluşturulmuştur. Veri setinin uyguluğundan analiz yöntemi olarak sınıflandırma tercih edilmiştir. Bu çalışmada, K-En Yakın Komşu (KNN), Random Forest ve Destek Vektör Makineleri (SVM) algoritmaları kullanılmış ve tüm modelleme süreci Orange Data Mining aracı aracılığıyla gerçekleştirilmiştir. Elde edilen sonuçlar, KNN ve Random Forest algoritmalarının oldukça başarılı performans sergilediğini, SVM modelinin genel sınıflandırma performansı açısından en yüksek başarıyı gösterdiğini ortaya koymuştur.Değerlendirme metrikleri olarak AUC (Area Under the Curve), F1 Score, Doğruluk (Accuracy), Precision ve Recall kullanılmıştır. Sonuçlar, SVM algoritmasının, KNN ve Random Forest algoritmalarına göre daha yüksek AUC ve F1 Score değerleri ile en iyi performansı sergilediğini göstermektedir. Özellikle F1 Score, modelin hem doğruluğunu hem de sınıfların dengesiz dağılımını dikkate alarak daha anlamlı sonuçlar vermiştir. Ayrıca, AUC değeri, modelin genel sınıflandırma performansını göstererek SVM'in daha iyi genel sınıflandırıcı olduğunu doğrulamaktadır. Sonuçlar, buğday tohumlarının fiziksel-morfolojik özelliklerinin doğru sınıflandırma için yeterli bilgi sağladığını ve uygun algoritmalarla yüksek doğruluk oranlarına ulaşılabileceğini göstermektedir.*
+> *Bu projede, buğday tohumlarının türünü tahmin etmeye yönelik bir makine öğrenmesi sınıflandırma uygulaması gerçekleştirilmiştir. Kullanılan veri seti, UCI Machine Learning Repository'den alınan ve farklı buğday türlerine ait morfolojik özellikleri içeren Seeds veri setidir. Veri seti; alan (area), çevre (perimeter), kompaktlık (compactness), çekirdek uzunluğu ve genişliği gibi 7 adet öznitelik ile buğday türünü (1:Kama, 2:Rosa, 3:Canadian) temsil eden 1 adet hedef değişkene sahip 210 örnekten oluşturulmuştur. Veri setinin uyguluğundan analiz yöntemi olarak sınıflandırma tercih edilmiştir. Bu çalışmada, K-En Yakın Komşu (KNN), Random Forest ve Destek Vektör Makineleri (SVM) algoritmaları kullanılmış ve tüm modelleme süreci Orange Data Mining aracı aracılığıyla gerçekleştirilmiştir. Elde edilen sonuçlar, KNN ve Random Forest algoritmalarının oldukça başarılı performans sergilediğini, SVM modelinin genel sınıflandırma performansı açısından en yüksek başarıyı gösterdiğini ortaya koymuştur. Değerlendirme metrikleri olarak AUC (Area Under the Curve), F1 Score, Doğruluk (Accuracy), Precision ve Recall kullanılmıştır. Sonuçlar, SVM algoritmasının, KNN ve Random Forest algoritmalarına göre daha yüksek AUC ve F1 Score değerleri ile en iyi performansı sergilediğini göstermektedir. Özellikle F1 Score, modelin hem doğruluğunu hem de sınıfların dengesiz dağılımını dikkate alarak daha anlamlı sonuçlar vermiştir. Ayrıca, AUC değeri, modelin genel sınıflandırma performansını göstererek SVM'in daha iyi genel sınıflandırıcı olduğunu doğrulamaktadır. Sonuçlar, buğday tohumlarının fiziksel-morfolojik özelliklerinin doğru sınıflandırma için yeterli bilgi sağladığını ve uygun algoritmalarla yüksek doğruluk oranlarına ulaşılabileceğini göstermektedir.*
 
 ## Veri Seti
 ### Veri Seti Bilgileri
@@ -69,18 +69,32 @@
 ### Öznitelik İlişkileri
 ![7](https://github.com/user-attachments/assets/189b9e9e-9623-4687-a7f6-36d99df05f7a)
 
-> *Scatter Plot grafiğinde, "Area" ve "Perimeter" özniteliklerinin buğday türlerine göre dağılımı incelendiğinde, bu iki özniteliğin birlikte kullanıldığında türler arasında kısmen ayırt edici bir yapı oluşturduğu görülmektedir.Bazı buğday türleri belirli bölgelerde kümelenirken, diğer türlerle örtüşen alanlar da mevcuttur.*
+> *Scatter Plot grafiğinde, "Area" ve "Perimeter" özniteliklerinin buğday türlerine göre dağılımı incelendiğinde, bu iki özniteliğin birlikte kullanıldığında türler arasında kısmen ayırt edici bir yapı oluşturduğu görülmektedir. Bazı buğday türleri belirli bölgelerde kümelenirken, diğer türlerle örtüşen alanlar da mevcuttur.*
 
 ![image](https://github.com/user-attachments/assets/602fb2af-b8ac-4006-abbb-3f737a7ffc2a)
-> *Correlation widget’ı ile veri kümesindeki tüm sayısal özniteliklerin birbiriyle olan ilişkisi görülebilmektedir. Veri setindeki öznitelikler arasında yapılan korelasyon analizi sonucunda, özellikle "Area" ile "Perimeter" (r ≈ 0.994) ve "Length of Kernel" ile "Perimeter" (r ≈ 0.972) arasında yüksek pozitif korelasyon olduğu görülmüştür. Bu değerler, bu özniteliklerin birbirine çok benzer bilgi taşıdığını göstermektedir.*
+> *Correlation widget’ı ile veri kümesindeki tüm sayısal özniteliklerin birbiriyle olan ilişkisi görülebilmektedir. Veri setindeki öznitelikler arasında yapılan korelasyon analizi sonucunda, özellikle "Area" ile "Perimeter" (r ≈ 0.994) ve "Length of kernel" ile "Perimeter" (r ≈ 0.972) arasında yüksek pozitif korelasyon olduğu görülmüştür. Bu değerler, bu özniteliklerin birbirine çok benzer bilgi taşıdığını göstermektedir.*
 
 
 ## Makine Öğrenmesi Uygulaması
 ### Kullanılan Yöntem
-> *Veri setinize uyguladığınız makine öğrenmesi yöntemini (sınıflandırma, regresyon veya kümeleme) belirtiniz ve neden bu yöntemi seçtiğinizi açıklayınız.*
+> *Seeds veri setinde yer alan 7  öznitelik kullanılarak, buğdayların üç buğday türüne göre sınıflandırılması amaçlanmıştır; bu sebeple , SVM ve Random Forest algoritmaları kullanılmıştır.*
 
 ### Modeller ve Parametreler
-> *Denediğiniz modelleri ve kullandığınız parametreleri açıklayınız. Orange'da yapılandırdığınız widget ayarlarını ekran görüntüleri ile destekleyebilirsiniz.*
+> *
+-KNN: En yakın komşulara bakarak sınıflandırma yapmaktadır.
+-Random Forest: Birden fazla karar ağacının oyuyla tahmin etmektedir.
+-SVM: Sınıflar arasındaki en iyi ayırıcı sınırı bulmaktadır.
+
+![9](https://github.com/user-attachments/assets/c37dbb84-f6bc-4c8e-900e-95046d9a2ec8)
+> *Select Columns widget'ı kullanılarak özellikler ve hedef değişken belirlenmiştir.*
+
+ ![10](https://github.com/user-attachments/assets/cf7a6d5a-779a-4cbe-af65-6a197655270e)
+> *Data Sampler widget'ı kullanılarak veri setinin %70'i eğitim verisi, %30'u test verisi olarak bölünmüştür.*
+
+![image](https://github.com/user-attachments/assets/afcd2093-f42d-4fad-b034-411b73506348)
+> *KNN modelinde k parametresi (komşu sayısı) 5 olarak seçilmiştir.*
+
+> Denediğiniz modelleri ve kullandığınız parametreleri açıklayınız. Orange'da yapılandırdığınız widget ayarlarını ekran görüntüleri ile destekleyebilirsiniz.*
 
 ### Model Değerlendirmesi
 > *Uyguladığınız modelin performansını değerlendiriniz. Kullandığınız değerlendirme metriklerini açıklayınız.*
