@@ -173,9 +173,6 @@
 ### Orange Proje Dosyası
 [serenaycelikymt5270arasınav.ows](https://github.com/FiratUniversity-FerhatUcarsLAB/ymt5270-arasinav-projesi-SerenayCelik/blob/main/project/serenaycelikymt5270aras%C4%B1nav.ows)
 
-
-
 ### Veri Seti Dosyası veya Bağlantısı
-> *Kullandığınız veri setini bu repoya yükleyebilir veya bağlantısını burada paylaşabilirsiniz.*
->[UCI Seeds Dataset](https://archive.ics.uci.edu/dataset/236/seeds)
-> [Veri_Seti.csv](veri_seti.csv) veya [Veri Seti Bağlantısı](https://ornek-veri-seti-baglantisi.com)
+[UCI Seeds Dataset](https://archive.ics.uci.edu/dataset/236/seeds)
+
