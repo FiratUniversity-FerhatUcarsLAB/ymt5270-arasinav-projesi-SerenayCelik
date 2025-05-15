@@ -36,7 +36,7 @@
 
 ## Keşifsel Veri Analizi (Explanatory Data Analysis - EDA)
 ### Temel İstatistikler
-> Veri setine ait temel istatistikler (ortalama, medyan, standart sapma, vb.) Feature Statistics widgeti kullanılarak görselleştirilmiştir. Eksik veri kotrolü sağlanmıştır.
+> Veri setine ait temel istatistikler (ortalama, medyan, standart sapma, vb.) Feature Statistics widget'ı kullanılarak görselleştirilmiştir. Eksik veri kotrolü sağlanmıştır.
 ![image](https://github.com/user-attachments/assets/72a1c3af-39cb-488f-b1d7-9fa5b5976372)
 
 
@@ -51,23 +51,29 @@
 ![3](https://github.com/user-attachments/assets/fc4675f6-e732-4a9c-bf93-efc150335158)
 ![4](https://github.com/user-attachments/assets/3ce9827d-038a-4ad3-b56d-c5e6ca77f57b)
 
-> Box Plot kullanılarak yapılan analizde özniteliklerde aykırı değerler tespiti yapılmıştır. Ortalama değerler göz önünde bulundurulduğunda ve özniteliklere ait Box Plot, Distributions widgetleri görselleştirildiğinde modellerin performanslarını etkilecek aykırı değerler gözlemlenmemiştir.
+> Box Plot kullanılarak yapılan analizde özniteliklerde aykırı değerler tespiti yapılmıştır. Ortalama değerler göz önünde bulundurulduğunda ve özniteliklere ait Box Plot, Distributions widget'leri görselleştirildiğinde modellerin performanslarını etkilecek aykırı değerler gözlemlenmemiştir.
 
 
 ### Görselleştirmeler
-> *Orange ile yaptığınız veri görselleştirmelerini buraya ekleyiniz. Her görselleştirme için kısa bir açıklama yazınız. Görselleri bu repoya yükleyip, markdown içinde referans verebilirsiniz.*
 
 #### Görselleştirme 1: Özniteliklerin sınıflandırmaya etkisi (Tree Viewer)
 ![5](https://github.com/user-attachments/assets/752f4067-1cc8-4c4e-a9be-6d3b60dd55af)
 
 > *Sınıflandırma ve regresyon ağaçlarını 2D olarak görselleştirerek, modelin nasıl çalıştığını ve verilerin nasıl sınıflandırıldığını anlamayı kolaylaştırmaktadır. Böylece özniteliklerin sınıflandırmadaki etkisi gözlemlenmiştir.*
 
-#### Görselleştirme 2: [Görselleştirme Adı]
-![Görselleştirme 2 Açıklaması](goruntuler/gorselleştirme2.png)
-> *Bu görselleştirme ile ilgili yorumunuz ve çıkarımlarınız.*
+#### Görselleştirme 2: Alanın çevre uzunluğuna oranının buğday türlerine göre dağılımı (Distributions)
+![6](https://github.com/user-attachments/assets/c22000b8-eff2-4602-9eb3-a25aba7d2193)
+
+> *Alanın çevre uzunluğuna oranının buğday türlerine göre dağılımına bakıldığında, her bir buğday türü için bu oranın farklı yoğunluklarda dağıldığı görülmektedir.*
 
 ### Öznitelik İlişkileri
-> *Öznitelikler arasındaki ilişkileri analiz ediniz. Korelasyon matrisi, scatter plot matrisi gibi görsellerle destekleyiniz.*
+![7](https://github.com/user-attachments/assets/189b9e9e-9623-4687-a7f6-36d99df05f7a)
+
+> *Scatter Plot grafiğinde, "Area" ve "Perimeter" özniteliklerinin buğday türlerine göre dağılımı incelendiğinde, bu iki özniteliğin birlikte kullanıldığında türler arasında kısmen ayırt edici bir yapı oluşturduğu görülmektedir.Bazı buğday türleri belirli bölgelerde kümelenirken, diğer türlerle örtüşen alanlar da mevcuttur.*
+
+![image](https://github.com/user-attachments/assets/602fb2af-b8ac-4006-abbb-3f737a7ffc2a)
+> *Correlation widget’ı ile veri kümesindeki tüm sayısal özniteliklerin birbiriyle olan ilişkisi görülebilmektedir. Veri setindeki öznitelikler arasında yapılan korelasyon analizi sonucunda, özellikle "Area" ile "Perimeter" (r ≈ 0.994) ve "Length of Kernel" ile "Perimeter" (r ≈ 0.972) arasında yüksek pozitif korelasyon olduğu görülmüştür. Bu değerler, bu özniteliklerin birbirine çok benzer bilgi taşıdığını göstermektedir.*
+
 
 ## Makine Öğrenmesi Uygulaması
 ### Kullanılan Yöntem
