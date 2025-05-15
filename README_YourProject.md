@@ -99,10 +99,15 @@
 
 #### Metrikler
 > *AUC (Area Under Curve): Modelin sınıfları ayırmadaki genel başarısını gösterir, 1’e yakınsa iyidir.*
+ 
 > *CA (Classification Accuracy): Doğru sınıflandırılan örneklerin oranıdır.*
+
 > *F1 Score: Precision ve Recall’un dengeli ortalamasıdır, özellikle dengesiz veri için önemlidir.*
+
 > *Precision (Kesinlik): Modelin pozitif tahminlerinin ne kadarının doğru olduğunu gösterir.*
+
 > *Recall (Duyarlılık): Gerçek pozitiflerin model tarafından ne kadarının bulunduğunu ifade eder.*
+
 > *MCC (Matthews Correlation Coefficient): Tüm sınıflar için dengeli başarı ölçüsü, -1 ile +1 arasında değer alır.*
 
 
