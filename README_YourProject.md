@@ -122,7 +122,21 @@
 
 
 ### Sonuçların Yorumlanması
-> *Elde ettiğiniz sonuçları detaylı bir şekilde yorumlayınız. Modelin güçlü ve zayıf yönleri nelerdir? Başka hangi modeller denenebilirdi?*
+### Modellerin Güçlü ve ZAYIF Yönleri
+> *SVM modeli, karmaşık veri setlerinde sınıflar arasındaki sınırları etkili bir şekilde belirleyebilmesi ve yüksek doğruluk sağlamasıyla güçlüdür. Ancak, doğru parametrelerin seçilmesi zor olabilmekte ve büyük veri setlerinde eğitim süresi uzayabilmektedir. Random Forest, çok sayıda karar ağacından oluşan yapısıyla aşırı öğrenmeye karşı dayanıklı ve genelleme kabiliyeti yüksek bir modeldir; bununla birlikte, çok sayıda ağaç kullanıldığında eğitim süresi artabilmektedir. KNN ise basit ve uygulanması kolay bir yöntem olmasına rağmen, büyük veri setlerinde yavaş çalışabilmekte ve özellikle yüksek boyutlu verilerde performansı düşmektedir. Ayrıca, doğru k değerinin belirlenmesi kritik olup modelin başarısını doğrudan etkilemektedir.*
+
+![12](https://github.com/user-attachments/assets/d92b2371-b360-4fca-acbb-cda7eee0eb9a)
+
+> *SVM modeli, tüm metriklerde en yüksek başarıyı göstererek en iyi performansı sağlamıştır. Random Forest iyi bir alternatif olup dengeli ve güvenilir sonuçlar verirken, KNN diğerlerine göre daha düşük doğruluk ve hassasiyet sunmuştur. Genel olarak, SVM sınıflandırma için en etkili model olarak öne çıkmaktadır.*
+
+![13](https://github.com/user-attachments/assets/50e70b62-f797-4f40-b99f-a345f89dbfaf)
+
+![14](https://github.com/user-attachments/assets/234f6232-870e-470d-8738-50f139e8b8ac)
+
+![15](https://github.com/user-attachments/assets/faaf6ee2-d94a-42de-84c0-d03ef42c3f21)
+
+
+> *Confusion matrisi sonuçları, modellerin sınıfları doğru şekilde ayırt etme başarısını gösteriyor ve SVM’nin diğer modellere göre daha dengeli ve yüksek doğru sınıflandırma oranına sahip olduğunu doğrulamaktadır.*
 
 ## Orange İş Akışı
 > *Orange ile oluşturduğunuz iş akışı görselini buraya ekleyiniz. İş akışınızın adımlarını kısaca açıklayınız.*
