@@ -98,12 +98,20 @@
 > *Seeds veri seti üzerinde yapılan sınıflandırma deneylerinde, KNN, SVM ve Random Forest modelleri karşılaştırılmıştır. Sonuçlar, SVM algoritmasının hem doğruluk (CA) hem de AUC, F1, precision, recall ve MCC gibi performans metriklerinde diğer modellere kıyasla daha üstün olduğunu göstermektedir. Random Forest modeli, yüksek performansıyla SVM’yi takip ederken, KNN daha düşük ancak hala kabul edilebilir bir başarı düzeyi sergilemiştir. Genel olarak, üç model de Seeds veri setindeki sınıflandırma problemi için uygun olmakla birlikte, SVM’nin en başarılı model olduğu söylenebilir.*
 
 #### Metrikler
+> *AUC (Area Under Curve): Modelin sınıfları ayırmadaki genel başarısını gösterir, 1’e yakınsa iyidir.*
+> *CA (Classification Accuracy): Doğru sınıflandırılan örneklerin oranıdır.*
+> *F1 Score: Precision ve Recall’un dengeli ortalamasıdır, özellikle dengesiz veri için önemlidir.*
+> *Precision (Kesinlik): Modelin pozitif tahminlerinin ne kadarının doğru olduğunu gösterir.*
+> *Recall (Duyarlılık): Gerçek pozitiflerin model tarafından ne kadarının bulunduğunu ifade eder.*
+> *MCC (Matthews Correlation Coefficient): Tüm sınıflar için dengeli başarı ölçüsü, -1 ile +1 arasında değer alır.*
+
+
 | Metrik | KNN | SVM | Random Forest |
 |---------------|-----------|----------|-------------|
 | AUC | 0.979 | 0.987 | 0.980 |
 | CA | 0.871 | 0.925 | 0.898 |
-| F1 | 0.869 | 0.925 | 0.898 |
-| Prec | 0.870 | 0.925 | 0.899 |
+| F1 Score | 0.869 | 0.925 | 0.898 |
+| Precision | 0.870 | 0.925 | 0.899 |
 | Recall | 0.871 | 0.925 | 0.898 |
 | MCC | 0.807 | 0.888 |  0.847 |
 
