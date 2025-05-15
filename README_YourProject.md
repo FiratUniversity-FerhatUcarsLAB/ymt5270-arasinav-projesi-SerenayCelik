@@ -172,8 +172,9 @@
 ## Ekler
 ### Orange Proje Dosyası
 > *Orange proje dosyanızı (.ows) bu repoya yükleyiniz ve buradan referans veriniz.*
-> 
 > [Proje_Dosyasi.ows](serenaycelik_ymt5270_arasınav.ows)
+> Orange proje dosyasına buradan ulaşabilirsiniz: [Proje.ows]([https://github.com/furkan123/orange-proje/blob/main/proje.ows](https://github.com/FiratUniversity-FerhatUcarsLAB/ymt5270-arasinav-projesi-SerenayCelik/blob/main/project/serenaycelikymt5270aras%C4%B1nav.ows))
+
 
 ### Veri Seti Dosyası veya Bağlantısı
 > *Kullandığınız veri setini bu repoya yükleyebilir veya bağlantısını burada paylaşabilirsiniz.*
