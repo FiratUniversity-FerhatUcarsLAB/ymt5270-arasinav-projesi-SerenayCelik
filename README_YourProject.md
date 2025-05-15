@@ -6,7 +6,7 @@
 - **E-posta: serenaycelik23@gmail.com**
 
 ## Proje Özeti
-> *Bu projede, buğday tohumlarının türünü tahmin etmeye yönelik bir makine öğrenmesi sınıflandırma uygulaması gerçekleştirilmiştir. Kullanılan veri seti, UCI Machine Learning Repository'den alınan ve farklı buğday türlerine ait morfolojik özellikleri içeren Seeds veri setidir. Veri seti; Area, Perimeter, Compactness, length of kernel, Width of kernel, Asymmetry coefficient ve Length of kernel groove gibi 7 adet öznitelik ile buğday türünü (1:Kama, 2:Rosa, 3:Canadian) temsil eden 1 adet hedef değişkene sahip 210 örnekten oluşturulmuştur. Veri setinin uyguluğundan analiz yöntemi olarak sınıflandırma tercih edilmiştir. Bu çalışmada, K-En Yakın Komşu (KNN), Random Forest ve Destek Vektör Makineleri (SVM) algoritmaları kullanılmış ve tüm modelleme süreci Orange Data Mining aracı aracılığıyla gerçekleştirilmiştir. Elde edilen sonuçlar, KNN ve Random Forest algoritmalarının oldukça başarılı performans sergilediğini, SVM modelinin genel sınıflandırma performansı açısından en yüksek başarıyı gösterdiğini ortaya koymuştur. Değerlendirme metrikleri olarak AUC (Area Under the Curve), F1 Score, Doğruluk (Accuracy), Precision ve Recall kullanılmıştır. Sonuçlar, SVM algoritmasının, KNN ve Random Forest algoritmalarına göre daha yüksek AUC ve F1 Score değerleri ile en iyi performansı sergilediğini göstermektedir. Özellikle F1 Score, modelin hem doğruluğunu hem de sınıfların dengesiz dağılımını dikkate alarak daha anlamlı sonuçlar vermiştir. Ayrıca, AUC değeri, modelin genel sınıflandırma performansını göstererek SVM'in daha iyi genel sınıflandırıcı olduğunu doğrulamaktadır. Sonuçlar, buğday tohumlarının fiziksel-morfolojik özelliklerinin doğru sınıflandırma için yeterli bilgi sağladığını ve uygun algoritmalarla yüksek doğruluk oranlarına ulaşılabileceğini göstermektedir.*
+> *Bu projede, buğday tohumlarının türünü tahmin etmeye yönelik bir makine öğrenmesi sınıflandırma uygulaması gerçekleştirilmiştir. Kullanılan veri seti, UCI Machine Learning Repository'den alınan ve farklı buğday türlerine ait morfolojik özellikleri içeren Seeds veri setidir. Veri seti; Area, Perimeter, Compactness, Length of kernel, Width of kernel, Asymmetry coefficient ve Length of kernel groove gibi 7 adet öznitelik ile buğday türünü (1:Kama, 2:Rosa, 3:Canadian) temsil eden 1 adet hedef değişkene sahip 210 örnekten oluşturulmuştur. Veri setinin uyguluğundan analiz yöntemi olarak sınıflandırma tercih edilmiştir. Bu çalışmada, K-En Yakın Komşu (KNN), Random Forest ve Destek Vektör Makineleri (SVM) algoritmaları kullanılmış ve tüm modelleme süreci Orange Data Mining aracı aracılığıyla gerçekleştirilmiştir. Elde edilen sonuçlar, KNN ve Random Forest algoritmalarının oldukça başarılı performans sergilediğini, SVM modelinin genel sınıflandırma performansı açısından en yüksek başarıyı gösterdiğini ortaya koymuştur. Değerlendirme metrikleri olarak AUC (Area Under the Curve), F1 Score, Doğruluk (Accuracy), Precision ve Recall kullanılmıştır. Sonuçlar, SVM algoritmasının, KNN ve Random Forest algoritmalarına göre daha yüksek AUC ve F1 Score değerleri ile en iyi performansı sergilediğini göstermektedir. Özellikle F1 Score, modelin hem doğruluğunu hem de sınıfların dengesiz dağılımını dikkate alarak daha anlamlı sonuçlar vermiştir. Ayrıca, AUC değeri, modelin genel sınıflandırma performansını göstererek SVM'in daha iyi genel sınıflandırıcı olduğunu doğrulamaktadır. Sonuçlar, buğday tohumlarının fiziksel-morfolojik özelliklerinin doğru sınıflandırma için yeterli bilgi sağladığını ve uygun algoritmalarla yüksek doğruluk oranlarına ulaşılabileceğini göstermektedir.*
 
 ## Veri Seti
 ### Veri Seti Bilgileri
@@ -95,14 +95,17 @@
 
 
 ### Model Değerlendirmesi
-> *Uyguladığınız modelin performansını değerlendiriniz. Kullandığınız değerlendirme metriklerini açıklayınız.*
+> *Seeds veri seti üzerinde yapılan sınıflandırma deneylerinde, KNN, SVM ve Random Forest modelleri karşılaştırılmıştır. Sonuçlar, SVM algoritmasının hem doğruluk (CA) hem de AUC, F1, precision, recall ve MCC gibi performans metriklerinde diğer modellere kıyasla daha üstün olduğunu göstermektedir. Random Forest modeli, yüksek performansıyla SVM’yi takip ederken, KNN daha düşük ancak hala kabul edilebilir bir başarı düzeyi sergilemiştir. Genel olarak, üç model de Seeds veri setindeki sınıflandırma problemi için uygun olmakla birlikte, SVM’nin en başarılı model olduğu söylenebilir.*
 
 #### Metrikler
-| Metrik | Değer |
-|--------|-------|
-| Örnek Metrik 1 | 0.85 |
-| Örnek Metrik 2 | 0.78 |
-| ... | ... |
+| Metrik | KNN | SVM | Random Forest |
+| AUC | 0.979 | 0.987 | 0.980 |
+| CA | 0.871 | 0.925 | 0.898 |
+| F1 | 0.869 | 0.925 | 0.898 |
+| Prec | 0.870 | 0.925 | 0.899 |
+| Recall | 0.871 | 0.925 | 0.898 |
+| MCC | 0.807 | 0.888 |  0.847 |
+
 
 ### Sonuçların Yorumlanması
 > *Elde ettiğiniz sonuçları detaylı bir şekilde yorumlayınız. Modelin güçlü ve zayıf yönleri nelerdir? Başka hangi modeller denenebilirdi?*
