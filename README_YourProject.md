@@ -173,7 +173,7 @@
 ### Orange Proje Dosyası
 > *Orange proje dosyanızı (.ows) bu repoya yükleyiniz ve buradan referans veriniz.*
 > 
-> [Proje_Dosyasi.ows](proje_dosyasi.ows)
+> [Proje_Dosyasi.ows](serenaycelik_ymt5270_arasınav.ows)
 
 ### Veri Seti Dosyası veya Bağlantısı
 > *Kullandığınız veri setini bu repoya yükleyebilir veya bağlantısını burada paylaşabilirsiniz.*
