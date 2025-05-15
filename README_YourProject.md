@@ -80,10 +80,9 @@
 > *Seeds veri setinde yer alan 7  öznitelik kullanılarak, buğdayların üç buğday türüne göre sınıflandırılması amaçlanmıştır; bu sebeple , SVM ve Random Forest algoritmaları kullanılmıştır.*
 
 ### Modeller ve Parametreler
-> *
--KNN: En yakın komşulara bakarak sınıflandırma yapmaktadır.
--Random Forest: Birden fazla karar ağacının oyuyla tahmin etmektedir.
--SVM: Sınıflar arasındaki en iyi ayırıcı sınırı bulmaktadır.
+> *KNN: En yakın komşulara bakarak sınıflandırma yapmaktadır.*
+> *Random Forest: Birden fazla karar ağacının oyuyla tahmin etmektedir.*
+> *SVM: Sınıflar arasındaki en iyi ayırıcı sınırı bulmaktadır.*
 
 ![9](https://github.com/user-attachments/assets/c37dbb84-f6bc-4c8e-900e-95046d9a2ec8)
 > *Select Columns widget'ı kullanılarak özellikler ve hedef değişken belirlenmiştir.*
@@ -94,7 +93,6 @@
 ![image](https://github.com/user-attachments/assets/afcd2093-f42d-4fad-b034-411b73506348)
 > *KNN modelinde k parametresi (komşu sayısı) 5 olarak seçilmiştir.*
 
-> Denediğiniz modelleri ve kullandığınız parametreleri açıklayınız. Orange'da yapılandırdığınız widget ayarlarını ekran görüntüleri ile destekleyebilirsiniz.*
 
 ### Model Değerlendirmesi
 > *Uyguladığınız modelin performansını değerlendiriniz. Kullandığınız değerlendirme metriklerini açıklayınız.*
