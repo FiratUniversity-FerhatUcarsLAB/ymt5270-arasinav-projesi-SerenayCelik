@@ -177,5 +177,5 @@
 
 ### Veri Seti Dosyası veya Bağlantısı
 > *Kullandığınız veri setini bu repoya yükleyebilir veya bağlantısını burada paylaşabilirsiniz.*
->
+>[UCI Seeds Dataset](https://archive.ics.uci.edu/dataset/236/seeds)
 > [Veri_Seti.csv](veri_seti.csv) veya [Veri Seti Bağlantısı](https://ornek-veri-seti-baglantisi.com)
