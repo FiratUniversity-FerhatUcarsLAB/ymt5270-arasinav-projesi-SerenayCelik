@@ -80,9 +80,9 @@
 > *Seeds veri setinde yer alan 7  öznitelik kullanılarak, buğdayların üç buğday türüne göre sınıflandırılması amaçlanmıştır; bu sebeple , SVM ve Random Forest algoritmaları kullanılmıştır.*
 
 ### Modeller ve Parametreler
-> ###*KNN: En yakın komşulara bakarak sınıflandırma yapmaktadır.*
-> *Random Forest: Birden fazla karar ağacının oyuyla tahmin etmektedir.*
-> *SVM: Sınıflar arasındaki en iyi ayırıcı sınırı bulmaktadır.*
+> 1. KNN: En yakın komşulara bakarak sınıflandırma yapmaktadır.
+> 2. Random Forest: Birden fazla karar ağacının oyuyla tahmin etmektedir.
+> 3. SVM: Sınıflar arasındaki en iyi ayırıcı sınırı bulmaktadır.
 
 ![9](https://github.com/user-attachments/assets/c37dbb84-f6bc-4c8e-900e-95046d9a2ec8)
 > *Select Columns widget'ı kullanılarak özellikler ve hedef değişken belirlenmiştir.*
